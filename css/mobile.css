@@ -102,7 +102,7 @@ body {
 	width: 98%
 }
 #body > div .article {
-	padding: 0;
+	padding: 30px 0 0 0;
 	width: 100%;
 }
 #body > div .article h2, #body > div .article h4 {
