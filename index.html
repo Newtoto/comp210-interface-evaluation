@@ -1,74 +1,200 @@
 <!doctype html>
-<!-- Website Template by freewebsitetemplates.com -->
-<html>
+<html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/modernizr.js"></script>
+	<script src="js/jquery.js"></script>
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+	<meta property="og:image" content="img/photo-6.jpg" />
+  	
 	<title>Usability Research</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width : 568px)">
-	<script type="text/javascript" src="js/mobile.js"></script>
 </head>
 <body>
-	<div id="header">
-		<a href="index.html" class="logo pageTitle">
-			Usability Research
-			<!--Change to logo-->
-			<!--<img src="images/logo.jpg" alt="">-->
+
+<!- Header ->
+<div class = "fixedHeader">
+	<a href = "index.html">
+		<h1 class = "flexChild headerName">Usability Research</h1>
+	</a>
+	<div class = "flexChild flexContainer">
+		<a href = "#intro" class = "flexChild headerLink">
+			<h2>Intro</h2>
 		</a>
-		<ul id="navigation">
-			<li class="selected">
-				<a href="index.html">intro</a>
-			</li>
-			<li>
-				<a href="methods.html">methods</a>
-			</li>
-			<li>
-				<a href="results.html">results</a>
-			</li>
-			<li>
-				<a href="discussion.html">discussion</a>
-			</li>
-			<li>
-				<a href="conclusion.html">conclusion</a>
-			</li>
-		</ul>
+		<a href = "#methods" class = "flexChild headerLink">
+			<h2>Methods</h2>
+		</a>
+		<a href = "#results" class = "flexChild headerLink">
+			<h2>Results</h2>
+		</a>
+		<a href = "#discussion" class = "flexChild headerLink">
+			<h2>Discussion</h2>
+		</a>
+		<a href = "#conclusion" class = "flexChild headerLink">
+			<h2>Conclusion</h2>
+		</a>
 	</div>
-	<div id="body">
-		<h1 class="pageHeading">
-			<span>Intro</span>
-		</h1>
-		<div>
-			<div class="article">
-				<p class="first">Bacon ipsum dolor amet bacon bresaola sirloin, spare ribs filet mignon venison pork loin tail doner swine. Bresaola tenderloin short loin fatback filet mignon pastrami beef picanha boudin. Chicken shank t-bone pork loin, andouille shoulder meatloaf chuck alcatra cupim short loin biltong filet mignon frankfurter. Pork belly pork chop andouille porchetta. Rump beef leberkas ham hock capicola meatball.
+</div>
 
-				Kevin biltong pastrami jerky prosciutto. Shank t-bone pastrami tenderloin, kielbasa strip steak ball tip drumstick. Short loin brisket cow ribeye jowl short ribs pork loin andouille kielbasa tail meatloaf salami doner capicola. Meatloaf hamburger alcatra pig meatball, bacon short loin short ribs biltong andouille. Shank pork chop short loin, hamburger prosciutto swine tri-tip pancetta beef ribs biltong. Cow flank sausage strip steak shank short loin tenderloin corned beef chicken beef tri-tip.</p>
-			</div>
-			<div class="article">
-				<p>Bacon ipsum dolor amet bacon bresaola sirloin, spare ribs filet mignon venison pork loin tail doner swine. Bresaola tenderloin short loin fatback filet mignon pastrami beef picanha boudin. Chicken shank t-bone pork loin, andouille shoulder meatloaf chuck alcatra cupim short loin biltong filet mignon frankfurter. Pork belly pork chop andouille porchetta. Rump beef leberkas ham hock capicola meatball.
+<div class = "content">
 
-					Kevin biltong pastrami jerky prosciutto. Shank t-bone pastrami tenderloin, kielbasa strip steak ball tip drumstick. Short loin brisket cow ribeye jowl short ribs pork loin andouille kielbasa tail meatloaf salami doner capicola. Meatloaf hamburger alcatra pig meatball, bacon short loin short ribs biltong andouille. Shank pork chop short loin, hamburger prosciutto swine tri-tip pancetta beef ribs biltong. Cow flank sausage strip steak shank short loin tenderloin corned beef chicken beef tri-tip.</p>
+<!- Intro Desktop ->
+<section id = "intro" class ="firstSection desktop">
+	<div class="light">
+		<h2>Intro</h2>
+		<div class = "odd">
+			<h3>Hyper Heatwave Runner Usability Research</h3>
+			<div class = "flexContainer">
+				<div class = "flexChild portfolioDiv">
+					<h3><img src="img/portfolio/GlobalGameJam.png"></h3>
+				</div>
+				<div class = "flexChild portfolioDiv">
+					<p>
+						Hyper Heatwave Runner is an endless runner game made in Unity.
+					</p>
+					<p>
+						It is set from the perspective of a brit abroad in France trying to cool down in the heatwave by picking up chilling drinks and ice creams and avoiding hot chilli peppers. All this while a load of baguettes fly at your face.
+					</p>
+					<p>This website is for documenting the usability research into this game.</p>
+				</div>
 			</div>
+			<a href = "https://github.com/Herro-Sama/Freelancer_Runner" class = "portfolioLink"><p>Hyper Heatwave Runner repository</p></a>
 		</div>
 	</div>
-	<div id="footer">
-		<div>
-			<p>Andy Findlay 2017</p>
-			<ul>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
-				</li>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
-				</li>
-				<li>
-					<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
-				</li>
-				<li>
-					<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
-				</li>
-			</ul>
+</section>
+
+<!- Intro Mobile ->
+<section id = "intro" class ="firstSection mobile">
+	<div class="light">
+		<h2>Intro</h2>
+		<div class = "odd">
+			<h3>Hyper Heatwave Runner Usability Research</h3>
+			<div class = "flexContainer">
+				<div class = "flexChild portfolioDiv">
+					<h3><img src="img/portfolio/GlobalGameJam.png"></h3>
+				</div>
+			</div>
+			<div class = "flexChild portfolioDiv">
+				<p>
+					Hyper Heatwave Runner is an endless runner game made in Unity.
+				</p>
+				<p>
+					It is set from the perspective of a brit abroad in France trying to cool down in the heatwave by picking up chilling drinks and ice creams and avoiding hot chilli peppers. All this while a load of baguettes fly at your face.
+				</p>
+				<p>This website is for documenting the usability research into this game.</p>
+			</div>
+			<a href = "https://github.com/Herro-Sama/Freelancer_Runner" class = "portfolioLink"><p>Hyper Heatwave Runner repository</p></a>
 		</div>
 	</div>
+</section>
+
+<!- Methods ->
+<section id = "methods">
+	<div class="dark">
+		<h2>Methods</h2>
+		<div class = "odd">
+			<h3>Qualitative</h3>
+			<p>Words and such.</p>
+		</div>
+		<div class = "even">
+			<h3>Quantitative</h3>
+			<p>Numbers numbers numbers.</p>
+		<a href = "#" class = "portfolioLink"><p>Could a link be useful?</p></a>
+		</div>
+	</div>
+</section>
+
+<!- Results ->
+<section id = "results">
+	<div class="light">
+	<h2>Results</h2>
+		<div class = "odd">
+			<h3>Plays to Score</h3>
+			<div class = "">
+				<div>
+					<h3>Graph</h3>
+					<p>
+						Graph description
+					</p>
+				</div>
+				<div>
+					<h3><img src="#"></h3>
+				</div>
+			</div>
+			<a href = "#" class = "portfolioLink"><p>Could a link be useful?</p></a>
+		</div>
+		<div class = "odd">
+			<h3>Plays to Score</h3>
+			<div class = "">
+				<div>
+					<h3>Graph</h3>
+					<p>
+						Graph description
+					</p>
+				</div>
+				<div>
+					<h3><img src="#"></h3>
+				</div>
+			</div>
+			<a href = "#" class = "portfolioLink"><p>Could a link be useful?</p></a>
+		</div>
+	</div>
+</section>
+
+<!- Discussion ->
+<section id = "discussion">
+	<div class="dark">
+		<h2>Discussion</h2>
+		<div class = "odd">
+			<h3>Header</h3>
+			<p>Content</p>
+		</div>
+		<div class = "even">
+			<h3>Header</h3>
+			<p>Content</p>
+		<a href = "#" class = "portfolioLink"><p>Optional Link</p></a>
+		</div>
+	</div>
+</section>
+
+<!- Conclusion ->
+<section id = "conclusion">
+	<div class="light">
+		<h2>Conclusion</h2>
+		<div class = "odd">
+			<h3>Header Point 1</h3>
+			<p>Conclusion bits n bobs 1</p>
+		</div>
+		<div class = "even">
+			<h3>Header Point 2</h3>
+			<p>Conclusion bits n bobs 2</p>
+		<a href = "#" class = "portfolioLink"><p>Could a link be useful?</p></a>
+		</div>
+	</div>
+</section>
+</div>
+
+<div class = "footer flexContainer" id = "contact">
+	<h4 class = "flexChild">Copyright © 2017 Andy Findlay</h4>
+	<div class = "footerIcons" style = "padding-top:13px; display:inherit;">
+		<a href = "https://github.com/Newtoto?tab=repositories">
+			<img class = "flexChild" src = "img/footer/githubIcon.png">
+		</a>
+		<a href = "https://uk.linkedin.com/in/andrew-findlay">
+			<img class = "flexChild" src = "img/footer/linkedinIcon.png">
+		</a>
+		<a href = "mailto:andrewrfindlay@ntlworld.com">
+			<img class = "flexChild" src = "img/footer/emailIcon.png">
+		</a>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
