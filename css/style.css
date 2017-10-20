@@ -1,5 +1,5 @@
 body{
-	background-color: #eaf0ce; 
+	background-color: #728494; 
 	margin: 0;
 	font-family: "Lora", serif;
 	color: #443850;
@@ -15,11 +15,11 @@ img{
 
 a{
 	text-decoration: none;
-	color: #443850;
+	color: #2c2c2c;
 }
 
 a:hover{
-	color: #d4421e;
+	color: #a23141;
 }
 
 .dark a{
@@ -30,19 +30,19 @@ a:hover{
 }
 
 .dark a:hover{
-	color: #d4421e;
+	color: #a23141;
 }
 
 .footer{
 	padding: 5px 10%;
-	background-color: #bbbe64;
+	background-color: #a1969d;
 	position: relative;
 	z-index:4;
 }
 
 .header{
 	padding: 20px 10%;
-	background-color: #bbbe64;
+	background-color: #a1969d;
 	text-align: center;
 	position: relative;
 	z-index:4;
@@ -50,7 +50,7 @@ a:hover{
 
 .fixedHeader{
 	padding: 0 10%;
-	background-color: #bbbe64;
+	background-color: #a1969d;
 	position: fixed;
 	text-align: center;
 	top: 0;
@@ -64,7 +64,7 @@ a:hover{
 }
 
 .headerLink:hover{
-	background-color: #a8ab63;
+	background-color: #9c9198;
 }
 
 .content{
@@ -80,7 +80,7 @@ a:hover{
 }
 
 section{
-	color: #c0c5c1;
+	color: #dedede;
 }
 
 section .icons{
@@ -89,12 +89,12 @@ section .icons{
 }
 
 section .dark{
-	background-color: #443850;
+	background-color: #6f7859;
 	padding: 23px 2%;
 }
 
 section .light{
-	background-color: #7d8491;
+	background-color: #a6886f;
 	padding: 23px 2%;
 	height: auto;
 }
@@ -206,8 +206,8 @@ section .light{
 }
 
 .portfolioLink p:hover{
-	background-color: #443850;
-	color: black;
+	background-color: #e7d4ad;
+	color: #2c2c2c;
 }
 
 .odd{
