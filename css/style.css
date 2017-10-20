@@ -206,8 +206,8 @@ section .light{
 }
 
 .portfolioLink p:hover{
-	background-color: #e7d4ad;
-	color: #2c2c2c;
+	background-color: rgba(158, 35, 56, 0.47);
+	color: rgba(220, 223, 224, 0.73);
 }
 
 .odd{
