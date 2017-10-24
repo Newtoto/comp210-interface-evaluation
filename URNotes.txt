@@ -21,7 +21,7 @@ Age range not enough:
 Everyone was between 20 and 25, so I didn't make a note of ages.
 
 Conclusion
-No correlation between previous experience and score, the game succeeded as the casual genre
+No correlation between previous experience and score, the game succeeded as the casual genre, simple controls picked up easily.
 
 Correlation between play through and score, for female not male lower multiplyer
 Multiplyer being negative and positive caused confusion
