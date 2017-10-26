@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
 		// prevent standard hash navigation (avoid blinking in IE)
 		e.preventDefault();
 
-		// top position relative to the document -70 for header
+		// top position relative to the document -161 for header
 		var pos = $id.offset().top - 161;
 
 		// animated top scrolling
